@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-items {
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 25px;
+  box-shadow: 3px 5px 5px grey;
+}
+.card-items h2 {
+  color: #333;
+}
+
+.card-items p {
+  color: #333;
+}
+
+.card-items button a {
+  text-decoration: none;
+  color: #333;
+}
